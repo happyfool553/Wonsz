@@ -1,4 +1,5 @@
 import random
+import time
 
 #twozrenie zmiennych miejsc
 lista = [1,2,3,4,5,6,7,8,9]
@@ -11,9 +12,9 @@ def powitanie():
 
 
 def ruchgracza():    
-    print("Wybierz miejsce, w ktorym chcesz wstawic swoj znak")
+    print("Teraz twoja runda. Wybierz miejsce, w ktorym chcesz wstawic swoj znak")
     print("" ,lista[0],"/", lista[1],"/",lista[2],"\n", lista[3],"/", lista[4],"/", lista[5],"\n", lista[6],"/", lista[7],"/", lista[8])
-    wybranaliczba = int(input("Wpisz liczbe od 1 do 9 "))
+    wybranaliczba = int(input("Wybierz liczbe od 1 do 9 "))
       
     numerwliscie = (wybranaliczba - 1)
     lista[numerwliscie] = "o"
@@ -21,6 +22,7 @@ def ruchgracza():
    
 def ruchbota():
     print("Teraz moja runda!")
+    time.sleep(1)
     def losowanieruchu():
         losbota = random.randint(0,8)
         if losbota=="o" or losbota=="x":
@@ -29,13 +31,15 @@ def ruchbota():
             ruchbota=(losbota-1)
             lista[ruchbota] = "x"
             print("" ,lista[0],"/", lista[1],"/",lista[2],"\n", lista[3],"/", lista[4],"/", lista[5],"\n", lista[6],"/", lista[7],"/", lista[8])
+            time.sleep(3)
     losowanieruchu()        
 
 def sprawdanie_wygranej_gracza():
     if lista[0]==lista[1]==lista[2]:
 
         if lista[0]=="o":
-            print("Wygales")
+            print("Wygales!")
+
         else:
             print("Udalo mi sie wygrac!")
     if lista[3]==lista[4]==lista[5]:
@@ -122,6 +126,7 @@ def jedna_runda():
     ruchbota()
     sprawdanie_wygranej_bota()
 powitanie()
+time.sleep(3)
 jedna_runda()
 
 
