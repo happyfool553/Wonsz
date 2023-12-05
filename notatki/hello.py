@@ -30,7 +30,7 @@ print("Wartosc zmiennej zmienna to:" + str(zmienna))
 
 imie = input("Jak masz na imie?")
 #zczytuje od uzytkownika
-imie  = int(input("Ile masz lat?"))
+imie  = ć
 #zczytuje i odraz uzmienia ze stringa na inta
 
 print ("czesc")
