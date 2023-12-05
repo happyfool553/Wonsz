@@ -109,11 +109,3 @@ while w_gracza!=1 or w_bota!=1:
     ruchbota()
     sprawdanie_wygranej()
 zakonczenie()    
-
-
-
-
-
-
-
-
