@@ -14,13 +14,17 @@ if kontotaknie=="nie":
     print (ileKont)
     nowaNazwa = input("Jak chcesz nazwac swoje konto?")'''
 
-
+"""
 while i<7:
     wybranaliczba = int(input("Podaj 6 liczb"))
     lista[i+1] = wybranaliczba
     i= i+1
 
-print(lista)
+print(lista)"""
+
+
+
+
 
     
     

@@ -40,7 +40,7 @@ for i in range(3):
 for i in range (1,100):
     if i%2==0:
         print(i)
-#zbior prawostronnie otwarty - 100 nie wchodzi w sklad
+#zbior prawostronnie otwarty -> 100 nie wchodzi w sklad
 
 
 for i in range(1,101, 2):
