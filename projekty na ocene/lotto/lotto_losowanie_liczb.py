@@ -13,5 +13,3 @@ def losowanieLiczby(listaGotowa):
 
 losowanieLiczby(listaGotowa) 
 print (listaGotowa)   
-
-    
