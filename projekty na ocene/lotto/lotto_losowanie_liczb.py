@@ -1,4 +1,5 @@
 import random
+'''listaGotowa to lista z liczbami wybranymi przez bota'''
 wylosowanaLiczba = -1
 listaGotowa = [0,0,0,0,0,0,0]
 
@@ -9,6 +10,7 @@ def losowanieLiczby(listaGotowa):
         listaGotowa[numerListy] = wylosowanaLiczba
         numerListy= numerListy+1
     return listaGotowa
+
 
 
 losowanieLiczby(listaGotowa) 
