@@ -21,6 +21,8 @@ def losowanieLiczby(listaLotto):
         numerListyLotto= numerListyLotto+1
     return listaLotto
  
+Liczba rund = 0 
+If tablica{liczba rund} = tablica2{ 
 '''def sprdzanieWygranej(ilePoprawnych):
     if listaLotto == listaUsera:
         ilePoprawnych = 6
