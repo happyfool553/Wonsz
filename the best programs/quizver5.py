@@ -1,19 +1,6 @@
 odp_gr=""
 nr_pytania=1
 print("\nWitaj! Przed toba quiz, ktory ma na celu zaproponowanie ci piosenke zespolu Tomorrow X Together \nna podstawie twoich preferencji. \nPrzed toba kilkanascie pytan - po kazdej proponowanej odpowiedzi to, co masz wpisac do konsoli \nbedzie zapisane w ten sposob: (odpowiedz). \nJesli wpiszesz cos innego, niz powinienes - nie martw sie! Pytanie wyswietli sie jeszcze raz, \na ty bedziesz mogl spokojnie odpowiedziec na pytanie.\nMilego quizowania!\n")
-#tworzenie slownika
-piosenki={
-    "CROWN": 0,
-    "9 and Three Quarters (Run Away)":  0,
-    "Can't You See Me?":0,
-    "Blue Hour": 0,
-    "0X1=Lovesong (I Know I love You)": 0,
-    "Magic": 0,
-    "Good Boy Gone Bad": 0,
-    "Sugar Rush Ride": 0,
-    "Chasing that feeling": 0,
-    "LEveL": 0
-}
 #tworzenie zmiennych
 CROWN= 0
 run_away =  0
@@ -26,7 +13,7 @@ srr= 0
 ctf= 0
 LEveL= 0
 
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
 # 11111111111111111111111111111111111111111111111
 while odp_gr !="w"or odp_gr !="bbv"or odp_gr !="mp":
     odp_gr= input("1. Lubisz wesole, pozytywnie brzmiace piosenki (w), te o mniej pozytywnym nastroju (mp) \nczy moze dajacy  *bad boy/girl* vibe (bbv)?\n")
@@ -48,7 +35,7 @@ elif odp_gr == "mp":
     cant_you_see_me=cant_you_see_me+1
 else:
     print("Wyglada na to, ze wpisalxs cos innego, bylo napisane w poleceniu. Twoja odpowiedz z tego pytania nie bedzie brana pod uwage w punktacji!")
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
 
 #2222222222222222222222222222222222222222222
 while odp_gr !="sm"or odp_gr !="sp"or odp_gr !="o" or odp_gr!="c":
@@ -72,7 +59,7 @@ elif odp_gr=="c":
     blue_hour=blue_hour+1
 else:
     print("Wyglada na to, ze wpisalxs cos innego, bylo napisane w poleceniu. Twoja odpowiedz z tego pytania nie bedzie brana pod uwage w punktacji!")
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
 
 #33333333333333333333333333333333333333
 while odp_gr !="f"or odp_gr !="b"or odp_gr !="g" or odp_gr !="zi" or odp_gr !="zo" or odp_gr !="cz" or odp_gr !="r":
@@ -99,7 +86,7 @@ elif odp_gr=="r":
     srr=srr+1
 else:
     print("Wyglada na to, ze wpisalxs cos innego, bylo napisane w poleceniu. Twoja odpowiedz z tego pytania nie bedzie brana pod uwage w punktacji!")
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
 
 #444444444444444444444444444
 while odp_gr !="w"or odp_gr !="l"or odp_gr !="j" or odp_gr!="z":
@@ -123,7 +110,7 @@ elif odp_gr=="z":
     ctf=ctf+1
 else:
     print("Wyglada na to, ze wpisalxs cos innego, bylo napisane w poleceniu. Twoja odpowiedz z tego pytania nie bedzie brana pod uwage w punktacji!")
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
 
 #5555555555555555555555555555
 while odp_gr !="s"or odp_gr !="pd"or odp_gr !="c" or odp_gr=="ps" or odp_gr=="w":
@@ -152,9 +139,37 @@ elif odp_gr=="w":
     gbgb=gbgb+1
 else:
     print("Wyglada na to, ze wpisalxs cos innego, bylo napisane w poleceniu. Twoja odpowiedz z tego pytania nie bedzie brana pod uwage w punktacji!")
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+
+
+piosenki={
+    CROWN:"CROWN",
+    run_away:"9 and Three Quarters (Run Away)",
+    cant_you_see_me:"Can't You See Me?",
+    blue_hour:"Blue Hour",
+    lovesong:"0X1=Lovesong (I Know I love You)",
+    magic:"Magic",
+    gbgb:"Good Boy Gone Bad",
+    srr:"Sugar Rush Ride",
+    ctf:"Chasing that feeling",
+    LEveL:"LEveL"
+}
+
+if CROWN== 5 or run_away == 5 or cant_you_see_me==5 or blue_hour==5 or magic==5 or gbgb==5 or srr==5 or ctf==5 or LEveL==5:
+    print("Proponowana piosenka dla ciebie to: "+piosenki[5])
+elif CROWN== 4 or run_away == 4 or cant_you_see_me==4 or blue_hour==4 or magic==4 or gbgb==4 or srr==4 or ctf==4 or LEveL==4:
+    print("Proponowana piosenka dla ciebie to: "+piosenki[4])
+elif CROWN== 3 or run_away == 3 or cant_you_see_me==3 or blue_hour==3 or magic==3 or gbgb==3 or srr==3 or ctf==3 or LEveL==3:
+    print("Proponowana piosenka dla ciebie to: "+piosenki[3])
+elif CROWN== 2 or run_away == 2 or cant_you_see_me==2 or blue_hour==2 or magic==2 or gbgb==2 or srr==2 or ctf==2 or LEveL==2:   
+    print("Proponowana piosenka dla ciebie to: "+piosenki[2])
+elif CROWN== 1 or run_away == 1 or cant_you_see_me==1 or blue_hour==1 or magic==1 or gbgb==1 or srr==1 or ctf==1 or LEveL==1:    
+    print("Proponowana piosenka dla ciebie to: "+piosenki[1])
+
+
 #print(piosenki.keys())
 #print(piosenki.values())
+
+
+
 #print("Piosenki"+ int(CROWN)+int(run_away)+int(cant_you_see_me)+int(blue_hour)+int(lovesong)+int(magic)+int(gbgb)+int(srr)+int(ctf)+int(LEveL))
-
-

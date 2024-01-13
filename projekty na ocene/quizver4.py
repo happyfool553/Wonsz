@@ -169,8 +169,8 @@ piosenki={
 print(piosenki.keys())
 print(piosenki.values())
 
-#if CROWN== 5: #or run_away == 5 or cant_you_see_me==5 or blue_hour==5 or magic==5 or gbgb==5 or srr==5 or ctf==5 or LEveL==5:
-    
+
+
 #print("Piosenki"+ int(CROWN)+int(run_away)+int(cant_you_see_me)+int(blue_hour)+int(lovesong)+int(magic)+int(gbgb)+int(srr)+int(ctf)+int(LEveL))
 
 
