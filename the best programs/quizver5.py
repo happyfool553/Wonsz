@@ -1,3 +1,4 @@
+import time
 odp_gr=""
 nr_pytania=1
 print("\nWitaj! Przed toba quiz, ktory ma na celu zaproponowanie ci piosenke zespolu Tomorrow X Together \nna podstawie twoich preferencji. \nPrzed toba kilkanascie pytan - po kazdej proponowanej odpowiedzi to, co masz wpisac do konsoli \nbedzie zapisane w ten sposob: (odpowiedz). \nJesli wpiszesz cos innego, niz powinienes - nie martw sie! Pytanie wyswietli sie jeszcze raz, \na ty bedziesz mogl spokojnie odpowiedziec na pytanie.\nMilego quizowania!\n")
