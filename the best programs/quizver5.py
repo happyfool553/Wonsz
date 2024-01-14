@@ -165,8 +165,8 @@ elif CROWN== 2 or run_away == 2 or cant_you_see_me==2 or blue_hour==2 or magic==
     print("Proponowana piosenka dla ciebie to: "+piosenki[2])
 elif CROWN== 1 or run_away == 1 or cant_you_see_me==1 or blue_hour==1 or magic==1 or gbgb==1 or srr==1 or ctf==1 or LEveL==1:    
     print("Proponowana piosenka dla ciebie to: "+piosenki[1])
-
-
+time.sleep(2)
+print("\nDziekuje za wypelnienie mojego quizu! \np.s. Jesli masz problem ze znalezieniem swojej piosenki, tutaj jest link do playlisty z wszystkimi mozliwymi wynikami <3\nhttps://open.spotify.com/playlist/5BROjp3oYoqqGjV9pzJWyq?si=08cddc00b08040f8 ")
 #print(piosenki.keys())
 #print(piosenki.values())
 
