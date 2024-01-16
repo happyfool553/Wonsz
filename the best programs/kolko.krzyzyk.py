@@ -16,12 +16,12 @@ def powitanie():
 
 def ruchgracza():    
     print("Teraz twoja runda. Wybierz miejsce, w ktorym chcesz wstawic swoj znak")
-    print("" ,lista[0],"/", lista[1],"/",lista[2],"\n", lista[3],"/", lista[4],"/", lista[5],"\n", lista[6],"/", lista[7],"/", lista[8])
+    print("" ,lista[0],"/", lista[1],"/",lista[2],"\n", lista[3],"/", lista[4],"/", lista[5],"\n", lista[6],"/", lista[7],"/", lista[8],"\n")
 
     wybranaliczba = int(input("Wybierz liczbe od 1 do 9 "))
     numerwliscie = wybranaliczba - 1
     lista[numerwliscie] = "o"
-    print("" ,lista[0],"/", lista[1],"/",lista[2],"\n", lista[3],"/", lista[4],"/", lista[5],"\n", lista[6],"/", lista[7],"/", lista[8])
+    print("" ,lista[0],"/", lista[1],"/",lista[2],"\n", lista[3],"/", lista[4],"/", lista[5],"\n", lista[6],"/", lista[7],"/", lista[8],"\n")
     time.sleep(2)
          
    
