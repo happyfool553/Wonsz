@@ -105,20 +105,177 @@ elif jedn_wpr =="b"or jedn_wpr =="bb" or jedn_wpr =="kb" or jedn_wpr =="mb"or je
             print(liczba, "gigabitow")
         elif jedn_wypr=="kbb": 
             liczba = liczba *0.001
-            print(liczba, "megabitow")   
-        #elif jedn_wypr=="mmbb":    
-        #elif jedn_wypr=="ggbb":    
-        #elif jedn_wypr=="ttbb":
-        
-        
-    #elif jedn_wpr=="bb":
-    #elif jedn_wpr=="kb":
-    #elif jedn_wpr=="mb":
-    #elif jedn_wpr=="gb":    
-    #elif jedn_wpr=="kbb":    
-    #elif jedn_wpr=="mmbb":    
-    #elif jedn_wpr=="ggbb":    
-    #elif jedn_wpr=="ttbb":
+            print(liczba, "megabajtow")   
+        elif jedn_wypr=="mmbb" or jedn_wypr=="ggbb" or jedn_wypr=="ttbb":    
+            print("Niestety, nie mamy mozliwosci przekonwertowania na ta jednostke :()")
+               
+    elif jedn_wpr=="bb":
+        print (liczba, "bajtow to ")
+        if jedn_wypr=="b":
+            liczba = liczba *8
+            print(liczba, "bitow")
+        elif jedn_wypr=="bb":
+            print(liczba, "bajtow")
+        elif jedn_wypr=="kb":
+            liczba = liczba *0.008
+            print(liczba, "kilobitow")
+        elif jedn_wypr=="mb":
+            liczba = liczba *0.008
+            print(liczba, "megabitow")
+        elif jedn_wypr=="gb":   
+            liczba = liczba *0.008
+            print(liczba, "gigabitow")
+        elif jedn_wypr=="kbb": 
+            liczba = liczba *0.001
+            print(liczba, "kilobajtow")   
+        elif jedn_wypr=="mmbb":
+            liczba = liczba *0.000001
+            print(liczba, "megabajtow")
+        elif jedn_wypr=="ggbb" or jedn_wypr=="ttbb":    
+            print("Niestety, nie mamy mozliwosci przekonwertowania na ta jednostke :()")
+    
+    elif jedn_wpr=="kb" or jedn_wpr=="mb" or jedn_wpr=="gb":
+        if jedn_wpr=="kb":
+            print (liczba, "kilobitow to ")
+        elif jedn_wpr=="mb":
+            print (liczba, "megabitow to ")
+        elif jedn_wpr=="gb":
+            print (liczba, "kilobajtow to ")
+        if jedn_wypr=="b":
+            liczba = liczba *1000
+            print(liczba, "bitow")
+        elif jedn_wypr=="bb":
+            liczba = liczba *125
+            print(liczba, "bajtow")
+        elif jedn_wypr=="kb":
+            print(liczba, "kilobitow")
+        elif jedn_wypr=="mb":
+            print(liczba, "megabitow")
+        elif jedn_wypr=="gb":   
+            print(liczba, "gigabitow")
+        elif jedn_wypr=="kbb": 
+            liczba = liczba *0.125
+            print(liczba, "kilobajtow")   
+        elif jedn_wypr=="mmbb":
+            liczba = liczba *0.000125
+            print(liczba, "megabajtow")
+        elif jedn_wypr=="ggbb" or jedn_wypr=="ttbb":  
+            print("Niestety, nie mamy mozliwosci przekonwertowania na ta jednostke :()")          
+       
+    elif jedn_wpr=="kbb":
+        print (liczba, "kilobajtow to ")
+        if jedn_wypr=="b":
+            liczba = liczba *8000
+            print(liczba, "bitow")
+        elif jedn_wypr=="bb":
+            liczba = liczba *1000
+            print(liczba, "bajtow")
+        elif jedn_wypr=="kb":
+            liczba = liczba *8
+            print(liczba, "kilobitow")
+        elif jedn_wypr=="mb":
+            liczba = liczba *8
+            print(liczba, "megabitow")
+        elif jedn_wypr=="gb":   
+            liczba = liczba *8
+            print(liczba, "gigabitow")
+        elif jedn_wypr=="kbb": 
+            print(liczba, "kilobajtow")   
+        elif jedn_wypr=="mmbb":
+            liczba = liczba *0.001
+            print(liczba, "megabajtow")
+        elif jedn_wypr=="ggbb":
+            liczba = liczba *0.000001
+            print(liczba, "gigabajtow")
+        elif jedn_wypr=="ttbb":
+            print("Niestety, nie mamy mozliwosci przekonwertowania na ta jednostke :()")
+      
+    elif jedn_wpr=="mmbb": 
+        print (liczba, "megabajtow to ")
+        if jedn_wypr=="b":
+            liczba = liczba *8000000
+            print(liczba, "bitow")
+        elif jedn_wypr=="bb":
+            liczba = liczba *1000000
+            print(liczba, "bajtow")
+        elif jedn_wypr=="kb":
+            liczba = liczba *8000
+            print(liczba, "kilobitow")
+        elif jedn_wypr=="mb":
+            liczba = liczba *8000
+            print(liczba, "megabitow")
+        elif jedn_wypr=="gb":   
+            liczba = liczba *8000
+            print(liczba, "gigabitow")
+        elif jedn_wypr=="kbb":
+            liczba = liczba *1000 
+            print(liczba, "kilobajtow")   
+        elif jedn_wypr=="mmbb":
+            print(liczba, "megabajtow")
+        elif jedn_wypr=="ggbb":
+            liczba = liczba *0.001
+            print(liczba, "gigabajtow")
+        elif jedn_wypr=="ttbb":
+            liczba = liczba *0.000001
+            print(liczba, "terabajtow")
+           
+    elif jedn_wpr=="ggbb":
+        print (liczba, "gigabajtow to ")
+        if jedn_wypr=="b":
+            liczba = liczba *8000000000
+            print(liczba, "bitow")
+        elif jedn_wypr=="bb":
+            liczba = liczba *1000000000
+            print(liczba, "bajtow")
+        elif jedn_wypr=="kb":
+            liczba = liczba *8000000
+            print(liczba, "kilobitow")
+        elif jedn_wypr=="mb":
+            liczba = liczba *8000000
+            print(liczba, "megabitow")
+        elif jedn_wypr=="gb":   
+            liczba = liczba *8000000
+            print(liczba, "gigabitow")
+        elif jedn_wypr=="kbb":
+            liczba = liczba *1000000 
+            print(liczba, "kilobajtow")   
+        elif jedn_wypr=="mmbb":
+            liczba = liczba *1000
+            print(liczba, "megabajtow")
+        elif jedn_wypr=="ggbb":
+            print(liczba, "gigabajtow")
+        elif jedn_wypr=="ttbb":
+            liczba = liczba *0.001
+            print(liczba, "terabajtow")    
+    
+    elif jedn_wpr=="ttbb":
+        print (liczba, "terabajtow to ")
+        if jedn_wypr=="b":
+            liczba = liczba *8000000000000
+            print(liczba, "bitow")
+        elif jedn_wypr=="bb":
+            liczba = liczba *1000000000000
+            print(liczba, "bajtow")
+        elif jedn_wypr=="kb":
+            liczba = liczba *8000000000
+            print(liczba, "kilobitow")
+        elif jedn_wypr=="mb":
+            liczba = liczba *8000000000
+            print(liczba, "megabitow")
+        elif jedn_wypr=="gb":   
+            liczba = liczba *8000000000
+            print(liczba, "gigabitow")
+        elif jedn_wypr=="kbb":
+            liczba = liczba *1000000000
+            print(liczba, "kilobajtow")   
+        elif jedn_wypr=="mmbb":
+            liczba = liczba *1000000
+            print(liczba, "megabajtow")
+        elif jedn_wypr=="ggbb":
+            liczba = liczba *1000
+            print(liczba, "gigabajtow")
+        elif jedn_wypr=="ttbb":
+            print(liczba, "terabajtow") 
   
 # b bb kb mb gb kbb mmbb ggbb ttbb
 # https://www.naukowiec.org/kalkulatory/pamiec.html
