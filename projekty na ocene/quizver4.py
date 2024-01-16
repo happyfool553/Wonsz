@@ -26,7 +26,7 @@ srr= 0
 ctf= 0
 LEveL= 0
 
-print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
+#print(CROWN, run_away,cant_you_see_me,blue_hour,lovesong,magic,gbgb,srr,ctf,LEveL)
 # 11111111111111111111111111111111111111111111111
 while odp_gr !="w"or odp_gr !="bbv"or odp_gr !="mp":
     odp_gr= input("1. Lubisz wesole, pozytywnie brzmiace piosenki (w), te o mniej pozytywnym nastroju (mp) \nczy moze dajacy  *bad boy/girl* vibe (bbv)?\n")
