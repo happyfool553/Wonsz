@@ -26,5 +26,7 @@ if krok1=="dodac":
     file.write("1234")
     file.close() 
 elif krok1 =="sprawdzic":
-    print("")
+    spr_pesel=input("Podaj PESEL, ktory bedziesz chcialx sprawdzic:  ")
+    
+    
 
